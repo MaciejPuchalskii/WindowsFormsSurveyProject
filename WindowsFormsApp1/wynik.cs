@@ -63,6 +63,7 @@ namespace WindowsFormsApp1
 
         private void EXIT_Click(object sender, EventArgs e)
         {
+            //Application.Exit();
             Close();
         }
     }

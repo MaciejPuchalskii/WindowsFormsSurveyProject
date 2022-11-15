@@ -188,12 +188,11 @@ namespace WindowsFormsApp1
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            Zlicz();
-            button1.Visible = false;
-            
+            Zlicz();      
             wynik wynik = new wynik(suma);
 
             wynik.ShowDialog();
+            suma = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
