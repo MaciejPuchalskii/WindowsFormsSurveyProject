@@ -14,10 +14,6 @@ namespace WindowsFormsApp1
     public partial class wynik : Form
     {
         int sumaa;
-        public wynik()
-        {
-
-        }
 
         public wynik(int number)
         {
@@ -49,28 +45,28 @@ namespace WindowsFormsApp1
             if(sumaa >= -15 && sumaa <-9)
             {
                 label1.Text = opisyHumoru[0];
-                pictureBox1.Image = Image.FromFile(@"C:\Users\Maciej\Desktop\Studia\Przedmioty\2 rok\3 semestr\Programowanie\Zadanie4\WindowsFormsApp1\WindowsFormsApp1\Images\" + pliki[0]);
+                pictureBox1.Image = Image.FromFile(Environment.CurrentDirectory +@"\Images\" + pliki[0]);
             }
             else if(sumaa >= -9 && sumaa <-3)
             {
                 label1.Text = opisyHumoru[1];
-                pictureBox1.Image = Image.FromFile(@"C:\Users\Maciej\Desktop\Studia\Przedmioty\2 rok\3 semestr\Programowanie\Zadanie4\WindowsFormsApp1\WindowsFormsApp1\Images\" + pliki[1]);
+                pictureBox1.Image = Image.FromFile(Environment.CurrentDirectory + @"\Images\" + pliki[1]);
             }
             else if(sumaa >= -3 && sumaa <3)
             {
                 label1.Text = opisyHumoru[2];
-                pictureBox1.Image = Image.FromFile(@"C:\Users\Maciej\Desktop\Studia\Przedmioty\2 rok\3 semestr\Programowanie\Zadanie4\WindowsFormsApp1\WindowsFormsApp1\Images\" + pliki[2]);
+                pictureBox1.Image = Image.FromFile(Environment.CurrentDirectory + @"\Images\" + pliki[2]);
             }
             else if(sumaa >=3 && sumaa <9)
             {
                 label1.Text = opisyHumoru[3];
-                pictureBox1.Image = Image.FromFile(@"C:\Users\Maciej\Desktop\Studia\Przedmioty\2 rok\3 semestr\Programowanie\Zadanie4\WindowsFormsApp1\WindowsFormsApp1\Images\" + pliki[3]);
+                pictureBox1.Image = Image.FromFile(Environment.CurrentDirectory + @"\Images\" + pliki[3]);
             }
             else if (sumaa >= 9 && sumaa <= 15)
             {
                 label1.Text = opisyHumoru[4];
-                pictureBox1.Image = Image.FromFile(@"C:\Users\Maciej\Desktop\Studia\Przedmioty\2 rok\3 semestr\Programowanie\Zadanie4\WindowsFormsApp1\WindowsFormsApp1\Images\" + pliki[4]);
-               
+                pictureBox1.Image = Image.FromFile(Environment.CurrentDirectory + @"\Images\" + pliki[4]);
+
             }
 
         }

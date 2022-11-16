@@ -164,7 +164,6 @@
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // Title
@@ -1028,7 +1027,7 @@
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(87, -10);
+            this.label48.Location = new System.Drawing.Point(99, 696);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(334, 23);
             this.label48.TabIndex = 44;
@@ -1358,7 +1357,6 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Black;
-            this.panel7.Controls.Add(this.label48);
             this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.panel7.Location = new System.Drawing.Point(12, 706);
             this.panel7.Name = "panel7";
@@ -1409,6 +1407,7 @@
             this.Controls.Add(this.label43);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label37);
+            this.Controls.Add(this.label48);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.panel7);
@@ -1451,8 +1450,6 @@
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
