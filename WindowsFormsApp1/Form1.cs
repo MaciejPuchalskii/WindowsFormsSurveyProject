@@ -189,6 +189,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             Zlicz();      
+            //wynik wynik = new wynik(suma,"Maciej");
             wynik wynik = new wynik(suma);
 
             wynik.ShowDialog();

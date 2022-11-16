@@ -14,11 +14,25 @@ namespace WindowsFormsApp1
     public partial class wynik : Form
     {
         int sumaa;
+        public wynik()
+        {
+
+        }
+
         public wynik(int number)
         {
             InitializeComponent();
             sumaa = number;
             zaladujobrazitekst();
+        }
+        public wynik(int number, string Author)
+        {
+            InitializeComponent();
+            sumaa = number;
+            zaladujobrazitekst();
+            AutorInsert.Text = Author;
+            Autor.Visible = true;
+            label2.Visible = true; 
         }
         string[] opisyHumoru =
         {
@@ -66,5 +80,6 @@ namespace WindowsFormsApp1
             //Application.Exit();
             Close();
         }
+
     }
 }

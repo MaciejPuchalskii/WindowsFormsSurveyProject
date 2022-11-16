@@ -33,6 +33,9 @@
             this.EXIT = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.AutorInsert = new System.Windows.Forms.Label();
+            this.Autor = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,12 +86,44 @@
             this.panel1.Size = new System.Drawing.Size(730, 5);
             this.panel1.TabIndex = 5;
             // 
+            // AutorInsert
+            // 
+            this.AutorInsert.AutoSize = true;
+            this.AutorInsert.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AutorInsert.Location = new System.Drawing.Point(756, 424);
+            this.AutorInsert.Name = "AutorInsert";
+            this.AutorInsert.Size = new System.Drawing.Size(0, 14);
+            this.AutorInsert.TabIndex = 6;
+            // 
+            // Autor
+            // 
+            this.Autor.AutoSize = true;
+            this.Autor.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Autor.Location = new System.Drawing.Point(702, 424);
+            this.Autor.Name = "Autor";
+            this.Autor.Size = new System.Drawing.Size(48, 14);
+            this.Autor.TabIndex = 7;
+            this.Autor.Text = "Autor:";
+            this.Autor.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(756, 424);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 14);
+            this.label2.TabIndex = 8;
+            // 
             // wynik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(848, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Autor);
+            this.Controls.Add(this.AutorInsert);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.EXIT);
@@ -110,5 +145,8 @@
         private System.Windows.Forms.Button EXIT;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label AutorInsert;
+        private System.Windows.Forms.Label Autor;
+        private System.Windows.Forms.Label label2;
     }
 }
